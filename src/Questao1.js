@@ -1,4 +1,4 @@
-```
+
 const usuario = {
   nome: "Ana Silva",
   idade: 30,
@@ -11,4 +11,4 @@ const usuarioRecuperado = JSON.parse(jsonString); // JSON → Objeto
 
 console.log(jsonString);
 console.log(usuarioRecuperado);
-```
+
