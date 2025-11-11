@@ -6,8 +6,8 @@ const usuario = {
   ativo: true
 };
 
-const jsonString = JSON.stringify(usuario); // Objeto → JSON
-const usuarioRecuperado = JSON.parse(jsonString); // JSON → Objeto
+const jsonString = JSON.stringify(usuario); 
+const usuarioRecuperado = JSON.parse(jsonString); 
 
 console.log(jsonString);
 console.log(usuarioRecuperado);
